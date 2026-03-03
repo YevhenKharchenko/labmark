@@ -4,8 +4,8 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 380px;
-  padding-bottom: 108px;
+  padding-top: 343px;
+  padding-bottom: 24px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -13,11 +13,10 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  position: relative;
 
   @include media(desktop) {
-    padding-top: 370px;
-    padding-bottom: 56px;
+    padding-top: 133px;
+    padding-bottom: 72px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
   }
@@ -29,47 +28,36 @@
 }
 
 .hero-content-wrapper {
-  @include media(desktop) {
-  }
-}
-
-.hero-img {
-  position: absolute;
-  top: 171px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-
-  @include media(desktop) {
-    top: 132px;
-    right: 140px;
-    left: auto;
-    transform: none;
-  }
-}
-
-.hero-btn-wrapper {
   backdrop-filter: blur(16px);
-  background: rgba(33, 9, 47, 0.8);
-  border: 1px solid #9f8aa9;
+  background: #fff;
   border-radius: 36px;
-  padding: 60px 23px 31px;
+  padding: 32px 16px;
 
   @include media(desktop) {
-    padding: 102px 23px 31px;
+    padding: 32px 24px;
     max-width: 518px;
     margin-left: auto;
   }
 }
 
+.hero-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 32px;
+  }
+}
+
 .hero-subtitle {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #131313;
   margin-bottom: 8px;
 
   @include media(desktop) {
@@ -78,16 +66,19 @@
 }
 
 .hero-text {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #d0d8ed;
+  color: #505050;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
+    max-width: 318px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 32px;
   }
 }
@@ -96,7 +87,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(316deg, #f1009d 0%, #2cb9f8 100%);
+  box-shadow: 0 4px 12px 0 rgba(48, 65, 30, 0.25);
+  background: #95d452;
   border-radius: 50px;
   padding: 12px 20px;
   width: 100%;
@@ -112,7 +104,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(136deg, #f1009d 0%, #2cb9f8 100%);
+    background: #6d993d;
 
     .her-btn-top-text {
     }
