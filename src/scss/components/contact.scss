@@ -18,14 +18,17 @@
 }
 
 .contact-container {
+  padding: 0;
+
   @include media(desktop) {
+    padding: 0 176px;
   }
 }
 
 .contact-content-wrapper {
-  border: 1px solid #9f8aa9;
+  box-shadow: 8px 8px 16px 0 rgba(102, 93, 93, 0.12);
   border-radius: 36px;
-  padding: 39px 15px;
+  padding: 250px 30px 40px;
   background-image: url(../img/contact/contact-bg-mob.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -37,40 +40,50 @@
   }
 }
 
+.contact-text-wrapper {
+  background: #fff;
+  border-radius: 36px;
+  padding: 24px;
+
+  @include media(desktop) {
+    max-width: max-content;
+    margin-left: auto;
+  }
+}
+
 .contact-title {
+  text-align: center;
   margin-bottom: 0;
 
   @include media(desktop) {
-    text-align: left;
   }
 }
 
 .contact-text {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
-  color: #fff;
+  color: #505050;
   margin-bottom: 24px;
 
   @include media(desktop) {
     font-size: 18px;
-    text-align: left;
   }
 }
 
 .contact-link {
-  background: #f1009d;
+  background: #225498;
   border-radius: 12px;
   padding: 8px 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
   color: #fff;
   word-break: break-all;
@@ -80,7 +93,6 @@
 
   @include media(desktop) {
     font-size: 20px;
-    margin-left: 0;
   }
 }
 

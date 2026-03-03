@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://visionmark.pro/sitemap.xml
+Sitemap: https://labmark.site/sitemap.xml

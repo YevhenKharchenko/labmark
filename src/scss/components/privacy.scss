@@ -1,5 +1,5 @@
 .policy-section {
-  background: #38156c;
+  background: #fff;
   padding-top: 112px;
   padding-bottom: 60px;
 
@@ -10,13 +10,13 @@
 }
 
 .policy-main-title {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: #131313;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -38,11 +38,11 @@
 }
 
 .policy-text {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
-  color: #fff;
+  color: #131313;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -59,11 +59,11 @@
 }
 
 .policy-item {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
-  color: #fff;
+  color: #131313;
   margin-bottom: 8px;
 
   &:last-child {
@@ -76,10 +76,10 @@
 }
 
 .policy-span {
-  color: #00d4ff;
+  color: #0040ff;
 }
 
 .policy-link {
-  color: #00d4ff;
+  color: #0040ff;
   word-wrap: break-word;
 }
